@@ -65,10 +65,10 @@ export AWS_ACCESS_KEY_ID="KEY"
 export AWS_SECRET_ACCESS_KEY="SECRET" 
 export AWS_DEFAULT_REGION="REGION" 
 
-*** References https://github.com/aws-samples/aws-refarch-wordpress ***
+*** References ***
+
+https://github.com/aws-samples/aws-refarch-wordpress 
 
 https://d1.awsstatic.com/whitepapers/wordpress-best-practices-on-aws.pdf 
 
 https://aws-quickstart.s3.amazonaws.com/quickstart-bitnami-wordpress/doc/ 
-
-wordpress-high-availability-by-bitnami-on-the-aws-cloud.pdf
