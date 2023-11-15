@@ -8,8 +8,7 @@ terraform {
 }
 
 provider "aws" {
-  access_key = var.aws_access_key
-  secret_key = var.aws_secret_key
+#Authentication method as per best practices needed
   region = "eu-west-1" # Choose the appropriate region
 }
 
