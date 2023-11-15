@@ -29,16 +29,6 @@ variable "db_connection_threshold" {
 variable "cpu_utilization_threshold" {
   default = 80
 }
-variable "aws_access_key" {
-  default = "AKIA5Q7Z5W474YNIHURX"
-  type = string
-  sensitive = true
-}
-variable "aws_secret_key" {
-  default = "gTxc3LTrijejozjcsVEuF8NVgTE4wOfujF3mkEWQ"
-  type = string
-  sensitive = true
-}
 variable aws_reg {
   description = "This is aws region"
   default     = "eu-west-1"
