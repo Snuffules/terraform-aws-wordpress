@@ -25,7 +25,7 @@ resource "aws_backup_plan" "wordpress-backup-plan" {
 
   advanced_backup_setting {
     backup_options = {
-      WindowsVSS = "enabled"
+      #Add options if needed
     }
     resource_type = "EC2"
   }
