@@ -5,8 +5,6 @@ data "template_file" "user_data" {
   }
 }
 
-
-
 #######################################
  #Create Autoscaling Group
 #######################################
